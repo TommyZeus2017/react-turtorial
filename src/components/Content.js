@@ -2,6 +2,7 @@
  * Created by Tommy on 3/31/2017.
  */
 import React from 'react';
+import Contacts from './contact/Contacts';
 
 class Content extends React.Component {
     render(){
@@ -9,6 +10,7 @@ class Content extends React.Component {
             <div>
                 <h2> { this.props.title }</h2>
                 <p>{ this.props.body }</p>
+                <Contacts/>
             </div>
         );
     }
